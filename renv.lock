@@ -1,0 +1,195 @@
+{
+  "R": {
+    "Version": "4.1.3",
+    "Repositories": [
+      {
+        "Name": "CRAN",
+        "URL": "https://cloud.r-project.org"
+      }
+    ]
+  },
+  "Packages": {
+    "R6": {
+      "Package": "R6",
+      "Version": "2.5.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "470851b6d5d0ac559e9d01bb352b4021",
+      "Requirements": []
+    },
+    "Rcpp": {
+      "Package": "Rcpp",
+      "Version": "1.0.8.3",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "32e79b908fda56ee57fe518a8d37b864",
+      "Requirements": []
+    },
+    "askpass": {
+      "Package": "askpass",
+      "Version": "1.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "e8a22846fff485f0be3770c2da758713",
+      "Requirements": [
+        "sys"
+      ]
+    },
+    "assertthat": {
+      "Package": "assertthat",
+      "Version": "0.2.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "50c838a310445e954bc13f26f26a6ecf",
+      "Requirements": []
+    },
+    "binman": {
+      "Package": "binman",
+      "Version": "0.1.2",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "1b685ef5db3de62eb3870d88280061dc",
+      "Requirements": [
+        "assertthat",
+        "httr",
+        "jsonlite",
+        "rappdirs",
+        "semver",
+        "xml2",
+        "yaml"
+      ]
+    },
+    "curl": {
+      "Package": "curl",
+      "Version": "4.3.2",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "022c42d49c28e95d69ca60446dbabf88",
+      "Requirements": []
+    },
+    "httr": {
+      "Package": "httr",
+      "Version": "1.4.2",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "a525aba14184fec243f9eaec62fbed43",
+      "Requirements": [
+        "R6",
+        "curl",
+        "jsonlite",
+        "mime",
+        "openssl"
+      ]
+    },
+    "jsonlite": {
+      "Package": "jsonlite",
+      "Version": "1.8.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "d07e729b27b372429d42d24d503613a0",
+      "Requirements": []
+    },
+    "mime": {
+      "Package": "mime",
+      "Version": "0.12",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "18e9c28c1d3ca1560ce30658b22ce104",
+      "Requirements": []
+    },
+    "openssl": {
+      "Package": "openssl",
+      "Version": "2.0.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "cf4329aac12c2c44089974559c18e446",
+      "Requirements": [
+        "askpass"
+      ]
+    },
+    "processx": {
+      "Package": "processx",
+      "Version": "3.5.3",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "8bbae1a548d0d3fdf6647bdd9d35bf6d",
+      "Requirements": [
+        "R6",
+        "ps"
+      ]
+    },
+    "ps": {
+      "Package": "ps",
+      "Version": "1.6.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "32620e2001c1dce1af49c49dccbb9420",
+      "Requirements": []
+    },
+    "rappdirs": {
+      "Package": "rappdirs",
+      "Version": "0.3.3",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "5e3c5dc0b071b21fa128676560dbe94d",
+      "Requirements": []
+    },
+    "renv": {
+      "Package": "renv",
+      "Version": "0.15.4",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "c1078316e1d4f70275fc1ea60c0bc431",
+      "Requirements": []
+    },
+    "semver": {
+      "Package": "semver",
+      "Version": "0.2.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "767de4760297e70995edb7b30fbda816",
+      "Requirements": [
+        "Rcpp",
+        "assertthat"
+      ]
+    },
+    "sys": {
+      "Package": "sys",
+      "Version": "3.4",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "b227d13e29222b4574486cfcbde077fa",
+      "Requirements": []
+    },
+    "wdman": {
+      "Package": "wdman",
+      "Version": "0.2.5",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "db20e883b0af01049a8973b75b603d30",
+      "Requirements": [
+        "assertthat",
+        "binman",
+        "processx",
+        "semver",
+        "yaml"
+      ]
+    },
+    "xml2": {
+      "Package": "xml2",
+      "Version": "1.3.3",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "40682ed6a969ea5abfd351eb67833adc",
+      "Requirements": []
+    },
+    "yaml": {
+      "Package": "yaml",
+      "Version": "2.3.5",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "458bb38374d73bf83b1bb85e353da200",
+      "Requirements": []
+    }
+  }
+}
